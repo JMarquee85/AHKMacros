@@ -1,10 +1,10 @@
 F13::
-    Send, ^!+s
+    Send, ^!+s :open slack
     Sleep, 100
-    Send, ^!+c
+    Send, ^!+c :open chrome
     Sleep, 100
-    Send, ^!+0
+    Send, ^!+0 :open obsidian
     Sleep, 100
-    Send, ^!+t
+    Send, ^!+t :open Thunderbird
 return
 
