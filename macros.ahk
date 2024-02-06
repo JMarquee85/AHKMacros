@@ -8,8 +8,37 @@ F13::
     Send, ^!+t ;open Thunderbird
 return
 
-; Open espanso matches in vscode
+;;;;;;;;; Additional Function Keys ;;;;;;;;;;;;;;
+; Windows
+; Layer 3 in usevia.app
 
-; Open macros.ahk file in vscode
+F13::
 
-; Reload ahk script
+    ; Open espanso matches in vscode
+F14::
+    Run, wsl code "/mnt/c/Users/josh/AppData/Roaming/espanso/match" ; fn + e
+
+    ; Open macros.ahk file in vscode ; fn + m
+F15::
+    Run, wsl code "/mnt/c/Users/josh/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"
+
+    ; Reload ahk script
+F16::
+    Reload ; fn + k
+return
+
+F17::
+
+F18::
+
+F19::
+
+F20::
+
+F21::
+
+F22::
+
+F23::
+
+F24::
