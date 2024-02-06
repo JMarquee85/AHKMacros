@@ -1,3 +1,7 @@
+;;;;;;;;; Additional Function Keys ;;;;;;;;;;;;;;
+; Windows
+; Layer 3 in usevia.app
+
 F13::
     Send, ^!+s ;open slack
     Sleep, 100
@@ -8,13 +12,7 @@ F13::
     Send, ^!+t ;open Thunderbird
 return
 
-;;;;;;;;; Additional Function Keys ;;;;;;;;;;;;;;
-; Windows
-; Layer 3 in usevia.app
-
-F13::
-
-    ; Open espanso matches in vscode
+; Open espanso matches in vscode
 F14::
     Run, wsl code "/mnt/c/Users/josh/AppData/Roaming/espanso/match" ; fn + e
 
